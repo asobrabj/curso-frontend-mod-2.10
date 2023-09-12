@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  background-color: #aeb0b4;
+  border: #071cb9 1px solid;
+  border-radius: 10px;
+  margin: 4% auto;
+  max-width: 1000px;
+  min-height: 9vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-around; 
+  font-size: calc(10px + 2vmin);
+  color: #071cb9;
+}
+
+.container_form {
+  background-color: #aeb0b4;
+  border: #071cb9 1px solid;
+  border-radius: 10px;
+  margin: 2%;
+  max-width: 800px;
+  min-height: 75vh;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(9px + 2vmin);
+  color: #071cb9;
+}
+
+.container_list {
+  align-items: center;
+  justify-content: center;
+  font-size: calc(7px + 2vmin);
+  color: #071cb9;
+}
+
+p{
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: #071cb9;
+  padding: 0px;
+  margin: 0 auto;
+}
+
+.container_print {
+  background-color: #aeb0b4;
+  border: #071cb9 1px solid;
+  border-radius: 10px;
+  padding: 0;
+  max-width: 800px;
+  min-height: 76vh;
+  display: flex;
+  flex-direction: row;
+  align-items:flex-start;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #071cb9;
+}
+
+.gen {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
