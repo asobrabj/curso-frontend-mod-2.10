@@ -86,7 +86,7 @@ const validateForm2 = (formData) => {
   }
 
   
-  if (formData.cpf.length != 11) {
+  if (formData.cpf.length !== 11) {
     errors.cpf = 'CPF deve ter 11 caracteres';
   }
 
